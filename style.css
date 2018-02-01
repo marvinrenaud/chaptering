@@ -1,0 +1,26 @@
+#hp-button {
+  background-color: #399D65;
+  border-color: #399D65;
+  margin: 20px 0px 0px 20px;
+  font-size: 24px;
+  width: 315px;
+  height: 60px;
+}
+
+#submit-button {
+  background-color: #399D65;
+  border-color: #399D65;
+  margin: 20px 0px 0px 0px;
+  font-size: 24px;
+  width: 315px;
+  height: 60px;
+}
+
+#top-div {
+  padding: 40px;
+}
+
+#nav-text {
+  color: white;
+  font-size: 20px;
+}

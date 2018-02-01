@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
+  <link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.3/cosmo/bootstrap.min.css" rel="stylesheet">
+  <script src="https://use.fontawesome.com/9efa8a51cb.js"></script>
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>LocalNow | Home</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-light" style="background-color: #399D65;">
+  <a class="navbar-brand" href="#" id="nav-text">
+    <img src="ln_logo_white.png" width="30" height="30" class="d-inline-block align-top" alt="" style="margin: 0px 20px 0px 0px">
+    LOCAL NOW ON-DEMAND DEMO TOOL
+  </a>
+</nav>
+
+  <div class="container" id="top-div">
+    <div class="row">
+      <div class="col">
+        <img src="map.jpg" alt="map">
+      </div>
+      <div class="col">
+        <div class="form-group">
+          <label for="city_pick"><h4 class="question">1. Pick Your City</h4></label>
+          <select class="form-control" id="city_pick">
+            <option class="dropdown-header">City List Drop Down</option>
+            <option value="gaAtlanta">Atlanta</option>
+            <option value="dcWashington">Washington DC</option>
+          </select>
+        </div>
+
+      </div>
+    </div>
+    <hr>
+
+    <h4> 2. Pick Your Content </h4>
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="ln_weather.png" alt="Local Now Weather">
+        <div class="card-body">
+          <h5 class="card-title">Local Now: Weather Forecast</h5>
+          <p class="card-text">Available in all markets...stay warm my friend!</p>
+        </div>
+        <div class="card-footer">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Select Weather On-Demand</label>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="ln_60now.png" alt="Local Now 60Now">
+        <div class="card-body">
+          <h5 class="card-title">Local Now: 60Now General News</h5>
+          <p class="card-text">Available in all markets...know "all of the things" '</p>
+        </div>
+        <div class="card-footer">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Select 60Now On-Demand</label>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="ln_myob.png" alt="Local Now MYOB">
+        <div class="card-body">
+          <h5 class="card-title">Local Now: MYOB Business News</h5>
+          <p class="card-text">Available in all markets...money never sleeps!</p>
+        </div>
+        <div class="card-footer">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+            <label class="form-check-label" for="inlineRadio3">Select MYOB On-Demand</label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div>
+      <button type="submit" class="btn btn-primary hp-button" id="submit-button" value="submit" href="#" role="button">WATCH ON DEMAND</button>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
