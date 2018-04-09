@@ -76,7 +76,7 @@ $(document).ready(function(){
       })
     })
 
-  // Create a function to open the next page where the video player will be
+  // Create a function to open the next page where the video player will be housed
   function launchVideo() {
     if (product == 1) {
       console.log("Actual URL: " + forecastURL);
@@ -95,8 +95,6 @@ $(document).ready(function(){
       finalURL = tastyStuffURL
       window.location = finalURL;
     }
-
-
   }
 
 
