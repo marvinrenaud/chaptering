@@ -26,20 +26,22 @@
   <div class="container" id="top-div">
     <div class="row">
       <div class="col">
-        <img src="map.jpg" alt="map">
-      </div>
-      <div class="col">
         <div class="form-group">
           <label for="city_pick"><h4 class="question">1. Pick Your City</h4></label>
           <select class="form-control" id="city_pick">
             <option class="dropdown-header">City List Drop Down</option>
-            <option value="gaAtlanta">Atlanta</option>
-            <option value="dcWashington">Washington DC</option>
+            <option value="gaAtlanta?apiKey=2">Atlanta</option>
+            <option value="nyManhattanNYC?apiKey=2">Manhattan</option>
           </select>
         </div>
-
+      </div>
+      <div class="col">
+        <img id="mapPic" src="map.jpg" alt="map">
       </div>
     </div>
+    <!-- <div class="row">
+      <button type="submit" class="btn btn-primary hp-button" id="citySubmit" value="submit" href="#" role="button">Select City</button>
+    </div> -->
     <hr>
 
     <h4> 2. Pick Your Content </h4>
@@ -47,7 +49,7 @@
       <div class="card">
         <img class="card-img-top" src="ln_weather.png" alt="Local Now Weather">
         <div class="card-body">
-          <h5 class="card-title">Local Now: Weather Forecast</h5>
+          <h5 class="card-title">Weather Forecast</h5>
           <p class="card-text">Available in all markets...stay warm my friend!</p>
         </div>
         <div class="card-footer">
@@ -60,7 +62,7 @@
       <div class="card">
         <img class="card-img-top" src="ln_60now.png" alt="Local Now 60Now">
         <div class="card-body">
-          <h5 class="card-title">Local Now: 60Now General News</h5>
+          <h5 class="card-title">60Now: General News</h5>
           <p class="card-text">Available in all markets...know "all of the things" '</p>
         </div>
         <div class="card-footer">
@@ -71,25 +73,27 @@
         </div>
       </div>
       <div class="card">
-        <img class="card-img-top" src="ln_myob.png" alt="Local Now MYOB">
+        <img class="card-img-top" src="ln_TastyStuff.png" alt="Local Now Tasty Stuff">
         <div class="card-body">
-          <h5 class="card-title">Local Now: MYOB Business News</h5>
-          <p class="card-text">Available in all markets...money never sleeps!</p>
+          <h5 class="card-title">Tasty Stuff: Dining Reco's</h5>
+          <p class="card-text">Available in all markets...let's eat!</p>
         </div>
         <div class="card-footer">
           <div class="form-check form-check-inline">
             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-            <label class="form-check-label" for="inlineRadio3">Select MYOB On-Demand</label>
+            <label class="form-check-label" for="inlineRadio3">Select Tasty Stuff On-Demand</label>
           </div>
         </div>
       </div>
     </div>
     <hr>
+    <h4> 3. Enjoy! </h4>
     <div>
       <button type="submit" class="btn btn-primary hp-button" id="submit-button" value="submit" href="#" role="button">WATCH ON DEMAND</button>
     </div>
   </div>
 
+  <script type="text/javascript" src="selector.js"></script>
 
 </body>
 
