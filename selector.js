@@ -11,6 +11,7 @@ $(document).ready(function(){
   var sixtyNowURL = "";
   var forecastURL = "";
   var product = "";
+  var finalURL = "";
 
   // Create a function that captures the initial city selection...
   $(document).on("click", "#submit-button", function() {
@@ -68,10 +69,35 @@ $(document).ready(function(){
           }
         }
 
+        launchVideo();
+
 
 
       })
     })
+
+  // Create a function to open the next page where the video player will be
+  function launchVideo() {
+    if (product == 1) {
+      console.log("Actual URL: " + forecastURL);
+      finalURL = forecastURL;
+      window.location = finalURL;
+    }
+
+    if (product == 2) {
+      console.log("Actual URL: " + sixtyNowURL);
+      finalURL = sixtyNowURL;
+      window.location = finalURL;
+    }
+
+    if (product == 3) {
+      console.log("Actual URL: " + tastyStuffURL);
+      finalURL = tastyStuffURL
+      window.location = finalURL;
+    }
+
+
+  }
 
 
 
